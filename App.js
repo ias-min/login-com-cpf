@@ -41,7 +41,7 @@ export default function App() {
         <>
           <Image style={styles.profile} source={require('./assets/rosto.png')} />
           <Text>Você está logado com CPF: {cpf}</Text>
-          <Button title={`cpf não é ${cpf}`} onPress={handleClear}/>
+          <Button title={`cpf não é ${cpf}`} onPress={handleClear} color='#000000'/>
         </>
       }
     </SafeAreaView>
